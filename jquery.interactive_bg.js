@@ -62,7 +62,7 @@
                  newX = -(xA*2),
                  newY = -(yA*2);
 
-                 el.find("> .ibg-bg").css({
+                 el.css({
                    "-webkit-transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")",
                    "-moz-transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")",
                    "-o-transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")",
