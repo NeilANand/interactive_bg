@@ -63,10 +63,10 @@
                  newY = -(yA*2);
 
                  el.css({
-                   "-webkit-transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")",
-                   "-moz-transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")",
-                   "-o-transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")",
-                   "transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")"
+                   "-webkit-transform": "matrix(" + (settings.scale * 1.1) + ",0,0," + (settings.scale * 1.1) + "," + newX + "," + newY + ")",
+                   "-moz-transform": "matrix(" + (settings.scale * 1.1) + ",0,0," + (settings.scale * 1.1) + "," + newX + "," + newY + ")",
+                   "-o-transform": "matrix(" + (settings.scale * 1.1) + ",0,0," + (settings.scale * 1.1) + "," + newX + "," + newY + ")",
+                   "transform": "matrix(" + (settings.scale * 1.1) + ",0,0," + (settings.scale * 1.1) + "," + newX + "," + newY + ")"
                  });
 
           }
