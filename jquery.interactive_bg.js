@@ -55,8 +55,8 @@
         window.addEventListener('devicemotion', deviceMotionHandler, false);
 
           function deviceMotionHandler(eventData) {
-             var accX = Math.round(event.accelerationIncludingGravity.x*10) / 10,
-                 accY = Math.round(event.accelerationIncludingGravity.y*10) / 10,
+             var accX = Math.round(event.accelerationIncludingGravity.x*10) / 30,
+                 accY = Math.round(event.accelerationIncludingGravity.y*10) / 30,
                  xA = -(accX / 10) * settings.strength,
                  yA = -(accY / 10) * settings.strength,
                  newX = -(xA*2),
