@@ -1,13 +1,16 @@
 /* ===========================================================
  * jquery-interactive_bg.js v1.0
  * ===========================================================
- * Copyright 2014 Pete Rojwongsuriya.
+ * Copyright 2016 Neil Nand.
+ * http://www.neilnand.co.uk
+ *
+ * Original developer: Pete Rojwongsuriya.
  * http://www.thepetedesign.com
  *
  * Create an interactive moving background
  * that reacts to viewer's cursor
  *
- * https://github.com/peachananr/interactive_bg
+ * https://github.com/NeilANand/interactive_bg
  *
  * License: GPL v3
  *
